@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b1b1b;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: inherit;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}

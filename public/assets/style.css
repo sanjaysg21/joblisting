@@ -1,0 +1,61 @@
+body {
+  background: url('/public/assets/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  margin: auto;
+}
+
+.form-group label,
+.form-group input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #777;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  color: #444;
+}
